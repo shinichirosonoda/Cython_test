@@ -1,4 +1,4 @@
-# Cython Python Numpy C の性能比較  
+# cython python numpy ctypes の性能比較  
 
 ```bash
 python main.py  
