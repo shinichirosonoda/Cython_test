@@ -13,23 +13,21 @@ n = 100000000
 print("n = {}".format(n))
 print("")
 
+def main(text, f):
+    print(text)
+    print("Sigma(1 to n) = {}".format(f(n)))
 
 def main_cy():
-    print("cython")
-    print("Sigma(1 to n) = {}".format(sum_cy(n)))
+    main("cython", sum_cy)
 
 def main_py():
-    print("python")
-    print("Sigma(1 to n) = {}".format(sum_py(n)))
+    main("python", sum_py)
 
 def main_np():
-    print("numpy")
-    print("Sigma(1 to n) = {}".format(sum_np(n)))
+    main("numpy", sum_np)
 
 def main_dll():
-    print("ctypes")
-    print("Sigma(1 to n) = {}".format(dll.sum_c(n)))
-
+    main("ctypes", dll.sum_c)
 
 if __name__ == '__main__':
     import cProfile
