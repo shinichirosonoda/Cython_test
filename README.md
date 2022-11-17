@@ -1,10 +1,14 @@
+# Cython Python Numpy C の性能比較  
+
 ```bash
 python main.py  
 ```
+を実行してください。  
 
-# Cython_test  
+
+```bash
 n = 100000000  
-  
+
 cython  
 Sigma(1 to n) = 5000000050000000  
          9 function calls in 0.032 seconds  
@@ -80,4 +84,6 @@ Sigma(1 to n) = 5000000050000000
         1    0.000    0.000    0.000    0.000 {method 'format' of 'str' objects}  
         1    0.000    0.000    0.033    0.033 <string>:1(<module>)  
         1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects} 
+        
+```
         
