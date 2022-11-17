@@ -1,0 +1,14 @@
+﻿  DLL_TEST64.cpp
+e:\git2\cython\dll_test64\dll_test64\dll_test64.cpp(6): warning C4273: 'DLL_TEST1': dll リンクが一貫していません。
+  e:\git2\cython\dll_test64\dll_test64\dll_test64.h(8): note: 'DLL_TEST1' の以前の定義を確認してください
+e:\git2\cython\dll_test64\dll_test64\dll_test64.cpp(12): warning C4273: 'ADD': dll リンクが一貫していません。
+  e:\git2\cython\dll_test64\dll_test64\dll_test64.h(9): note: 'ADD' の以前の定義を確認してください
+e:\git2\cython\dll_test64\dll_test64\dll_test64.cpp(17): warning C4273: 'sum_c': dll リンクが一貫していません。
+  e:\git2\cython\dll_test64\dll_test64\dll_test64.h(10): note: 'sum_c' の以前の定義を確認してください
+     ライブラリ E:\git2\cython\DLL_TEST64\x64\Release\DLL_TEST64.lib とオブジェクト E:\git2\cython\DLL_TEST64\x64\Release\DLL_TEST64.exp を作成中
+  コード生成しています。
+  1 of 4 functions (25.0%) were compiled, the rest were copied from previous compilation.
+    1 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  コード生成が終了しました。
+  DLL_TEST64.vcxproj -> E:\git2\cython\DLL_TEST64\x64\Release\DLL_TEST64.dll
