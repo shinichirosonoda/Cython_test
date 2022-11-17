@@ -1,3 +1,7 @@
+```bash
+python main.py  
+```
+
 # Cython_test  
 n = 100000000  
   
